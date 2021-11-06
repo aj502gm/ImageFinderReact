@@ -5,7 +5,7 @@ class Resultados extends React.Component {
         return(
             console.log(this.props.datos),
             <React.Fragment>
-                <div className="framemain">
+                <div className="main-frame">
                     {this.props.datos.map(imagen =>(
                         <div className="subframes">
                            

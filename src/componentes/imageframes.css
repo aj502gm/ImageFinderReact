@@ -11,7 +11,7 @@
     align-items: center;
     padding: 5px 10px;
     margin-bottom: 10px;
-    float:left;
+    float:right;
     margin-top: 15px;
     margin-right: 2.5px;
     margin-left: 2.5px;
@@ -27,4 +27,8 @@
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
+}
+.main-frame{
+    width: 100%;
+    margin-left: -12.5%;
 }

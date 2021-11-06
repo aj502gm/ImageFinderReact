@@ -18,7 +18,7 @@ class Buscador extends React.Component{
     render(){
         return(
             <form onSubmit={this.obtenerBusqueda}>
-                <div className = "row">
+                <div>
                     <div className = "form-group col-md-8">
                         <input ref = {this.referencia} type = "text" className="buscar" 
                         placeholder= "¿What are you looking for?"></input>
